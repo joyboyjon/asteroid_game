@@ -1,6 +1,31 @@
-build
-out
-.cache
-.idea
-.vs
-.vscode
+# Build and output directories
+/build/
+/out/
+/bin/
+/dist/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE / Editor configs
+.cache/
+.idea/
+.vs/
+.vscode/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Backup and temp files
+*.log
+*.tmp
+*.swp
+*.bak
