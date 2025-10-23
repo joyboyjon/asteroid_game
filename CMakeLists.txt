@@ -12,7 +12,7 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(asteroid_game src/main.cpp "src/game/Ship.cpp")
+add_executable(asteroid_game src/main.cpp "src/game/Ship.cpp" "src/game/Asteroid.cpp")
 
 target_include_directories(asteroid_game PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
